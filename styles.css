@@ -1,0 +1,41 @@
+#counterLabel{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+#decreaseDiv{
+    display: inline;
+    float: left;
+    font-size: 25px;
+    border: none;
+}
+
+#resetDiv{
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    border: none;
+}
+
+#addDiv{
+    display: inline;
+    float: right;
+    width: 20%;
+    font-size: 25px;
+    border: none;
+}
+
+.buttons{
+    padding: 10px 10px;
+    background-color: rgb(12, 12, 231);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    border: none;
+}
+
+.buttons:hover{
+    background-color: rgb(153, 153, 228);
+}
