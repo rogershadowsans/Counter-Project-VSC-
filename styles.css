@@ -1,27 +1,30 @@
-#counterLabel{
-    display: block;
-    text-align: center;
-    font-size: 50px;
+p1 {
+    position: relative;
+    inset: 20%;
+    margin-bottom: auto;
+    font-size: 100px;
+}
+
+body {
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 100px;
 }
 
 #decreaseDiv{
-    display: inline;
-    float: left;
     font-size: 25px;
     border: none;
 }
 
 #resetDiv{
-    display: block;
-    margin: auto;
     font-size: 25px;
     border: none;
 }
 
 #addDiv{
-    display: inline;
-    float: right;
-    width: 20%;
     font-size: 25px;
     border: none;
 }
